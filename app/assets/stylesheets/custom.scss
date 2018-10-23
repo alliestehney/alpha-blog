@@ -1,0 +1,60 @@
+$navbar-default-bg: #000080;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+  font-size: 1.7em;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url("mich3.jpg");
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3rem;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: #000;
+  border: none;
+}
+
+footer {
+  margin-top: 4px;
+  padding-top: 5px;
+  border-top: 1px solid gray;
+  color: #777;
+}
+
+footer a:hover {
+  color: #000080;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
