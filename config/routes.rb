@@ -5,4 +5,8 @@ Rails.application.routes.draw do
 
   # creates all the things for articles
   resources :articles
+
+  get 'signup', to: 'users#new'
+
+  resources :users, except: [:new]
 end
