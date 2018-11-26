@@ -39,7 +39,7 @@ class ArticlesController < ApplicationController
   end
 
   def index
-    @articles = Article.all
+    @articles = Article.paginate(page: params[:page], per_page: 5)
   end
 
   # SHOWS THE SINGLE ARTICLE PAGE --> ex: articles/9 where 9 is the ID for that article
